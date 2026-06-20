@@ -1,0 +1,14 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "Building Azure DevOps Portfolio Project"
+  displayName: "Run basic build step"
+
+- script: |
+    echo "Listing project files"
+    ls -R
+  displayName: "Show project structure"
