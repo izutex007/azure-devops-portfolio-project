@@ -1,0 +1,1 @@
+Screenshots of Azure DevOps pipeline will be stored here.
